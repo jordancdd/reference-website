@@ -1,0 +1,26 @@
+html {
+    font-family: Roboto;
+    color: black;
+    background-color: white;
+    padding: 1.5em;
+}
+
+img {
+    width: 50%;
+
+}
+figcaption {
+    text-transform: italic;
+    color: purple;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 100%;
+}
+
+q {
+    color: rgb(165, 65, 218);
+}
+
+blockquote {
+    color:rgb(255, 98, 0);
+    font-size: 150%;
+}
