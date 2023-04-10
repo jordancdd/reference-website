@@ -3,6 +3,21 @@ html {
     color: black;
     background-color: white;
     padding: 1.5em;
+    text-indent: 0em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.headings {
+    text-shadow: 4px 4px 4px rgba(0,0,0,.8);
+}
+
+.text {
+    text-align: center; 
 }
 
 img {
@@ -18,9 +33,37 @@ figcaption {
 
 q {
     color: rgb(165, 65, 218);
+    text-decoration: underline rgb(165, 65, 218);
 }
 
 blockquote {
     color:rgb(255, 98, 0);
     font-size: 150%;
 }
+
+a:link {
+    color: blue;
+    padding: .0em .0em;
+    margin: 1.25em 0;
+    line-height: 2em;
+}
+
+a:visited {
+    color: red;
+    padding: .0em .0em;
+    margin: 1.25em 0;
+}
+    
+a:hover {
+    color: purple;
+    border: 2px solid purple;
+    padding: .0em .0em;
+    margin: 2.25em 0;
+}
+
+a:focus {
+    color: purple;
+    padding: .0em .0em;
+    margin: 1.25em 0;
+}
+
